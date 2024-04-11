@@ -1,0 +1,4 @@
+use database hi;
+use hi;
+create table Patient_ward(depart_name varchar (50));
+create table patients_details(pnt_id int primary key auto_increment, pnt_name varchar (50),pnt_email varchar(50),pnt_depart varchar (50),pnt_password int);
